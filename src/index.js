@@ -1,9 +1,12 @@
-class Test {
-  log() {
-    console.log('console log');
-  }
-}
+import bespoke from 'bespoke';
+import nebula from 'bespoke-theme-nebula';
+import classes from 'bespoke-classes';
+import keys from 'bespoke-keys';
+import touch from 'bespoke-touch';
 
-const test = new Test();
-
-test.log();
+bespoke.from('#root', [
+  nebula(),
+  classes(),
+  keys(),
+  touch(),
+]);

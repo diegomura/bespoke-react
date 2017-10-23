@@ -16,6 +16,11 @@
     "webpack": "^3.8.1"
   },
   "dependencies": {
-    "babel-loader": "^7.1.2"
+    "babel-loader": "^7.1.2",
+    "bespoke": "^1.1.0",
+    "bespoke-classes": "^1.0.0",
+    "bespoke-keys": "^1.1.0",
+    "bespoke-theme-nebula": "^1.0.1",
+    "bespoke-touch": "^1.0.0"
   }
 }

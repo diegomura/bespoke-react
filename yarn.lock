@@ -862,6 +862,26 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bespoke-classes@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/bespoke-classes/-/bespoke-classes-1.0.0.tgz#d61c40ae48dd0825f9704d010d7ea5bb3ad11218"
+
+bespoke-keys@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bespoke-keys/-/bespoke-keys-1.1.0.tgz#64c0418e532ae1c5c5966a9ea0ac60e8f28ecb22"
+
+bespoke-theme-nebula@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/bespoke-theme-nebula/-/bespoke-theme-nebula-1.0.1.tgz#576ffea516b60db6829f2092fadeda664f72e483"
+
+bespoke-touch@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/bespoke-touch/-/bespoke-touch-1.0.0.tgz#bf21ac774c6513e5e125e8dafc00f06d2f93e9ff"
+
+bespoke@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bespoke/-/bespoke-1.1.0.tgz#7b0fb3cfff580220a0da4020138365a55f063b3c"
+
 big.js@^3.1.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/big.js/-/big.js-3.2.0.tgz#a5fc298b81b9e0dca2e458824784b65c52ba588e"
