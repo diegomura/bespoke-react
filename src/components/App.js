@@ -1,6 +1,6 @@
-// ---------------------------------
-// PLEASE DO NOT EDIT THIS COMPONENT
-// ---------------------------------
+// ------------------------------------
+// DO NOT EDIT OR DELETE THIS COMPONENT
+// ------------------------------------
 
 import React from 'react';
 import bespoke from 'bespoke';
