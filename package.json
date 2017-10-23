@@ -5,7 +5,8 @@
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "./node_modules/.bin/webpack"
+    "build": "./node_modules/.bin/webpack",
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -21,6 +22,8 @@
     "bespoke-classes": "^1.0.0",
     "bespoke-keys": "^1.1.0",
     "bespoke-theme-nebula": "^1.0.1",
-    "bespoke-touch": "^1.0.0"
+    "bespoke-touch": "^1.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
