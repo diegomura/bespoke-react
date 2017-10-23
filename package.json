@@ -5,7 +5,7 @@
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack -p",
     "start": "./node_modules/.bin/webpack-dev-server"
   },
   "devDependencies": {
@@ -16,7 +16,8 @@
     "babel-preset-stage-0": "^6.24.1",
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.30.1",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
   },
   "dependencies": {
     "bespoke": "^1.1.0",
