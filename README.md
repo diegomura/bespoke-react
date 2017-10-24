@@ -56,7 +56,7 @@ export default Slide01;
 For more information of what can be done, you can read more about the instance API and Events in the [official Bespoke documentation](https://github.com/bespokejs/bespoke#deck-instances).
 
 ## Setup Bespoke
-This project tries to be the more _unopinionated_ as possible. This means letting you define what Bespoke plugins you want to use. To add a new plugin, just go to your `src/index.js` and add one more element to the `plugins` array:
+This project tries to be the more _unopinionated_ as possible. This means letting you define what Bespoke plugins and themes you want to use. To add a new plugin, just go to your `src/index.js` and add one more element to the `plugins` array:
 
 ```js
 import somePlugin from 'some-plugin';
