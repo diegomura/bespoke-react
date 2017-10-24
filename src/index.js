@@ -5,6 +5,7 @@ import classes from 'bespoke-classes';
 import keys from 'bespoke-keys';
 import touch from 'bespoke-touch';
 import progress from 'bespoke-progress';
+import bullets from 'bespoke-bullets';
 import prism from 'bespoke-prism';
 import App from './components/App';
 
@@ -16,6 +17,7 @@ const plugins = [
   keys(),
   touch(),
   progress(),
+  bullets('li'),
   prism(),
 ];
 

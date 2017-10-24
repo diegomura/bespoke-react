@@ -942,6 +942,10 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bespoke-bullets@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bespoke-bullets/-/bespoke-bullets-1.1.0.tgz#c5fa7e0e6ad047a21cf5797d47aff598c6cbb721"
+
 bespoke-classes@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/bespoke-classes/-/bespoke-classes-1.0.0.tgz#d61c40ae48dd0825f9704d010d7ea5bb3ad11218"
