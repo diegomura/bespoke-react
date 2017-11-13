@@ -5,9 +5,9 @@
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "./node_modules/.bin/webpack -p",
-    "start": "./node_modules/.bin/webpack-dev-server",
-    "deploy": "gh-pages-deploy"
+    "build": "rimraf dist && webpack -p",
+    "start": "webpack-dev-server",
+    "deploy": "npm run build && gh-pages-deploy"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
