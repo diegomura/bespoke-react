@@ -12,23 +12,37 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { deck: null };
+    this.state = {
+      deck: null,
+      currentSlide: 0,
+    };
   }
 
   componentDidMount() {
     const { mountElement, plugins } = this.props;
 
-    this.setState({ deck: bespoke.from(mountElement, plugins) })
+    const deck = bespoke.from(mountElement, plugins);
+
+    deck.on('activate', event => {
+      this.setState({ currentSlide: event.index });
+      return true;
+    })
+
+    this.setState({ deck })
   }
 
   render() {
-    const { deck } = this.state;
+    const { deck, currentSlide } = this.state;
 
     return (
-      slides.map(slide => {
+      slides.map((slide, i) => {
         const Slide = slide.default;
 
-        return <Slide key={Slide.name} deck={deck} />
+        return <Slide
+          key={Slide.name}
+          deck={deck}
+          active={currentSlide === i}
+        />
       })
     );
   }
